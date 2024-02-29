@@ -14,13 +14,13 @@ namespace veletlenszeru
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Random rnd = new Random();
+            Random random = new Random();  
+            int méret = 20;
             for (int sor = 0; sor < 20; sor++)
+            
             {
                 for (int oszlop = 0; oszlop < 20; oszlop++)
                 {
-                    int méret= rnd.Next();
-
                     Button a = new Button();
                     Controls.Add(a);
 
